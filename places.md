@@ -17,7 +17,7 @@
     - Bilbao, Spain
     - San Juan de Gaztelugatxe, Spain
     - Amurrio, Spain
-    - Salto del Nervion, Spain
+      - Salto del Nervion, Spain
     - Palencia, Spain
     - Astorga, Spain
     - Ponferrada, Spain
@@ -160,7 +160,7 @@
 
   July
     - Svoboda nad Úpou, Czech Republic
-    - Kovary, Poland
+    - Kowary, Poland
     - Litomysl, Czech Republic
     - Brno, Czech Republic
       - Macocha Abyss, Czech Republic
@@ -183,6 +183,6 @@
     - Nuremberg, Germany
     - Koblenz, Germany
     - Essen, Germany
-    - Amstedam, Netherlands
+    - Amsterdam, Netherlands
     - Brussels, Belgium
     - London, UK
