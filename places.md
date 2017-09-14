@@ -127,7 +127,7 @@
     - Brussels, Belgium
     - Dunkirk, France
     - London, UK
-    - Brugges, Belgium
+    - Bruges, Belgium
     - Ghent, Belgium
     - Antwerp, Belgium
     - The Hague, Netherlands

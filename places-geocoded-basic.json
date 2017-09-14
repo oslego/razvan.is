@@ -1,0 +1,614 @@
+{
+  "Asnelles, France": {
+    "lat": 49.34028000000001,
+    "lng": -0.5830559999999423
+  },
+  "Mont Saint-Michel, France": {
+    "lat": 48.636063,
+    "lng": -1.511457000000064
+  },
+  "Rennes, France": {
+    "lat": 48.117266,
+    "lng": -1.6777925999999752
+  },
+  "Nantes, France": {
+    "lat": 47.218371,
+    "lng": -1.553621000000021
+  },
+  "Chateau de la Bretesche, France": {
+    "lat": 47.4828666,
+    "lng": -2.1722605999999587
+  },
+  "Château des ducs de Bretagne, France": {
+    "lat": 47.21626209999999,
+    "lng": -1.5488245000000234
+  },
+  "Château de la Sebrandière, France": {
+    "lat": 46.3743378,
+    "lng": -0.8997759000000087
+  },
+  "Bordeaux, France": {
+    "lat": 44.837789,
+    "lng": -0.5791799999999512
+  },
+  "Hendaye, France": {
+    "lat": 43.359399,
+    "lng": -1.76614799999993
+  },
+  "San Sebastian, Spain": {
+    "lat": 43.318334,
+    "lng": -1.9812312999999904
+  },
+  "Zumaia, Spain": {
+    "lat": 43.2988236,
+    "lng": -2.256885000000011
+  },
+  "Guernika, Spain": {
+    "lat": 43.311373,
+    "lng": -2.6808403
+  },
+  "Mundaka, Spain": {
+    "lat": 43.408017,
+    "lng": -2.700250800000049
+  },
+  "Bilbao, Spain": {
+    "lat": 43.2630126,
+    "lng": -2.9349852000000283
+  },
+  "San Juan de Gaztelugatxe, Spain": {
+    "lat": 43.447,
+    "lng": -2.784999999999968
+  },
+  "Amurrio, Spain": {
+    "lat": 43.0518654,
+    "lng": -3.0013109000000213
+  },
+  "Salto del Nervion, Spain": {
+    "lat": 42.9397224,
+    "lng": -2.9810574000000543
+  },
+  "Palencia, Spain": {
+    "lat": 42.0096857,
+    "lng": -4.528801599999952
+  },
+  "Astorga, Spain": {
+    "lat": 42.4549303,
+    "lng": -6.053251100000011
+  },
+  "Ponferrada, Spain": {
+    "lat": 42.5499958,
+    "lng": -6.5982589999999846
+  },
+  "Molinaseca, Spain": {
+    "lat": 42.5376891,
+    "lng": -6.518975400000045
+  },
+  "Las Médulas, Spain": {
+    "lat": 42.45956959999999,
+    "lng": -6.760105599999974
+  },
+  "Chaves, Portugal": {
+    "lat": 41.7410586,
+    "lng": -7.4706046000000015
+  },
+  "Guimarães, Portugal": {
+    "lat": 41.44253,
+    "lng": -8.291785699999991
+  },
+  "Braga, Portugal": {
+    "lat": 41.5454486,
+    "lng": -8.426507000000015
+  },
+  "Porto, Portugal": {
+    "lat": 41.1579438,
+    "lng": -8.629105299999992
+  },
+  "Figueira da Foz, Portugal": {
+    "lat": 40.1521398,
+    "lng": -8.857582999999977
+  },
+  "Nazaré, Portugal": {
+    "lat": 39.6012147,
+    "lng": -9.070099099999993
+  },
+  "Sintra, Portugal": {
+    "lat": 38.8029127,
+    "lng": -9.38164949999998
+  },
+  "Estoril, Portugal": {
+    "lat": 38.7133152,
+    "lng": -9.393655800000033
+  },
+  "Cabo da Roca, Portugal": {
+    "lat": 38.780417,
+    "lng": -9.498884999999973
+  },
+  "Lisbon, Portugal": {
+    "lat": 38.7222524,
+    "lng": -9.139336599999979
+  },
+  "Vila Nova de Milfontes, Portugal": {
+    "lat": 37.7239951,
+    "lng": -8.781713200000013
+  },
+  "Alvor, Portugal": {
+    "lat": 37.130505,
+    "lng": -8.593506400000024
+  },
+  "Carvoeiro, Portugal": {
+    "lat": 37.1068147,
+    "lng": -8.467785100000015
+  },
+  "Algar de Benagil, Portugal": {
+    "lat": 37.0871992,
+    "lng": -8.423702000000048
+  },
+  "Seville, Spain": {
+    "lat": 37.3890924,
+    "lng": -5.984458899999936
+  },
+  "Jerez, Spain": {
+    "lat": 36.6850064,
+    "lng": -6.126074399999993
+  },
+  "La Línea de la Concepción, Spain": {
+    "lat": 36.1682563,
+    "lng": -5.349471900000026
+  },
+  "Gibraltar, Gibraltar": {
+    "lat": 36.140751,
+    "lng": -5.353585000000066
+  },
+  "Málaga, Spain": {
+    "lat": 36.7212737,
+    "lng": -4.42139880000002
+  },
+  "Córdoba, Spain": {
+    "lat": 37.8881751,
+    "lng": -4.7793834999999945
+  },
+  "Granada, Spain": {
+    "lat": 37.1773363,
+    "lng": -3.5985570999999936
+  },
+  "Cartagena, Spain": {
+    "lat": 37.6256827,
+    "lng": -0.9965839000000187
+  },
+  "Valencia, Spain": {
+    "lat": 39.4699075,
+    "lng": -0.3762881000000107
+  },
+  "Albarracín, Spain": {
+    "lat": 40.4075581,
+    "lng": -1.4438760000000457
+  },
+  "Zaragoza, Spain": {
+    "lat": 41.6488226,
+    "lng": -0.8890853000000334
+  },
+  "Lleida, Spain": {
+    "lat": 41.6175899,
+    "lng": 0.6200145999999904
+  },
+  "Andorra la Vella, Andorra": {
+    "lat": 42.50631740000001,
+    "lng": 1.521835499999952
+  },
+  "Perpignan, France": {
+    "lat": 42.6886591,
+    "lng": 2.8948331999999937
+  },
+  "Montpellier, France": {
+    "lat": 43.610769,
+    "lng": 3.8767159999999876
+  },
+  "Arles, France": {
+    "lat": 43.676647,
+    "lng": 4.627776899999958
+  },
+  "Cannes, France": {
+    "lat": 43.552847,
+    "lng": 7.017369000000031
+  },
+  "Nice, France": {
+    "lat": 43.7101728,
+    "lng": 7.261953199999994
+  },
+  "Loano, Italy": {
+    "lat": 44.13064079999999,
+    "lng": 8.260967100000016
+  },
+  "Alessandria, Italy": {
+    "lat": 44.9072727,
+    "lng": 8.611679600000002
+  },
+  "Milan, Italy": {
+    "lat": 45.4642035,
+    "lng": 9.189981999999986
+  },
+  "Lake Garda, Italy": {
+    "lat": 45.6049385,
+    "lng": 10.635141400000066
+  },
+  "Sirmione, Italy": {
+    "lat": 45.47602000000001,
+    "lng": 10.617320699999937
+  },
+  "Salò, Italy": {
+    "lat": 45.60839199999999,
+    "lng": 10.510476899999958
+  },
+  "Limone Sul Garda, Italy": {
+    "lat": 45.8223979,
+    "lng": 10.796603699999991
+  },
+  "Riva del Garda, Italy": {
+    "lat": 45.8891984,
+    "lng": 10.843069600000035
+  },
+  "Malcesine, Italy": {
+    "lat": 45.752032,
+    "lng": 10.830412600000045
+  },
+  "Castelleto, Italy": {
+    "lat": 45.6865805,
+    "lng": 10.74953389999996
+  },
+  "Verona, Italy": {
+    "lat": 45.43838419999999,
+    "lng": 10.991621500000065
+  },
+  "Venezia, Italy": {
+    "lat": 45.4408474,
+    "lng": 12.31551509999997
+  },
+  "Ljubljana, Italy": {
+    "lat": 46.0569465,
+    "lng": 14.505751499999974
+  },
+  "Budapest, Italy": {
+    "lat": 47.5069711,
+    "lng": 19.071738500000038
+  },
+  "Timisoara, Romania": {
+    "lat": 45.7488716,
+    "lng": 21.20867929999997
+  },
+  "Targu Jiu, Romania": {
+    "lat": 45.0314279,
+    "lng": 23.268939300000056
+  },
+  "Bucharest, Romania": {
+    "lat": 44.4267674,
+    "lng": 26.102538399999958
+  },
+  "Piatra Neamt, Romania": {
+    "lat": 46.9299616,
+    "lng": 26.377979299999993
+  },
+  "Bangkok, Thailand": {
+    "lat": 13.7563309,
+    "lng": 100.50176510000006
+  },
+  "Ao Nang, Thailand": {
+    "lat": 8.0362834,
+    "lng": 98.83281409999995
+  },
+  "Railay Beach, Thailand": {
+    "lat": 8.0120253,
+    "lng": 98.83733089999998
+  },
+  "Patong, Thailand": {
+    "lat": 7.8961957,
+    "lng": 98.29541470000004
+  },
+  "Phuket International Airport, Thailand": {
+    "lat": 8.1110951,
+    "lng": 98.30646460000003
+  },
+  "Siem Reap, Cambodia": {
+    "lat": 13.3670968,
+    "lng": 103.84481340000002
+  },
+  "Singapore, Singapore": {
+    "lat": 1.352083,
+    "lng": 103.81983600000001
+  },
+  "Ubud, Bali, Indonesia": {
+    "lat": -8.5068536,
+    "lng": 115.26247779999994
+  },
+  "Gili Air, Indonesia": {
+    "lat": -8.3590452,
+    "lng": 116.08128320000003
+  },
+  "Gili Trawangan, Indonesia": {
+    "lat": -8.351844,
+    "lng": 116.05616320000001
+  },
+  "Kuala Lumpur, Malaysia": {
+    "lat": 3.139003,
+    "lng": 101.68685499999992
+  },
+  "Penang, Malaysia": {
+    "lat": 5.4163459,
+    "lng": 100.33276169999999
+  },
+  "Sydney, Australia": {
+    "lat": -33.8688197,
+    "lng": 151.20929550000005
+  },
+  "Great Ocean Road, Australia": {
+    "lat": -38.6805638,
+    "lng": 143.39161820000004
+  },
+  "Split Point Lighthouse": {
+    "lat": -38.46803,
+    "lng": 144.10448900000006
+  },
+  "Kennett River, Australia": {
+    "lat": -38.6657459,
+    "lng": 143.85743939999998
+  },
+  "Apollo Bay, Australia": {
+    "lat": -38.75,
+    "lng": 143.64999999999998
+  },
+  "Twelve Apostles, Australia": {
+    "lat": -38.6621015,
+    "lng": 143.1050917
+  },
+  "Gibson Steps, Australia": {
+    "lat": -38.6685556,
+    "lng": 143.1121865
+  },
+  "Loch Ard Gorge, Australia": {
+    "lat": -38.6465896,
+    "lng": 143.0705094
+  },
+  "London Bridge, Australia": {
+    "lat": -38.6224127,
+    "lng": 142.9318594
+  },
+  "Bay of Islands, Australia": {
+    "lat": -38.5847908,
+    "lng": 142.82730719999995
+  },
+  "Melbourne, Australia": {
+    "lat": -37.8136276,
+    "lng": 144.96305759999996
+  },
+  "Targu Mures, Romania": {
+    "lat": 46.5385862,
+    "lng": 24.551439200000004
+  },
+  "Sibiu, Romania": {
+    "lat": 45.7983273,
+    "lng": 24.12558260000003
+  },
+  "Győr, Hungary": {
+    "lat": 47.6874569,
+    "lng": 17.650397399999974
+  },
+  "Vienna, Austria": {
+    "lat": 48.2081743,
+    "lng": 16.37381890000006
+  },
+  "Regensburg, Germany": {
+    "lat": 49.0134297,
+    "lng": 12.101623600000039
+  },
+  "Heerlen, Netherlands": {
+    "lat": 50.88817419999999,
+    "lng": 5.979498799999988
+  },
+  "Brussels, Belgium": {
+    "lat": 50.8503463,
+    "lng": 4.351721099999963
+  },
+  "Dunkirk, France": {
+    "lat": 51.0343684,
+    "lng": 2.3767762999999604
+  },
+  "London, UK": {
+    "lat": 51.5073509,
+    "lng": -0.12775829999998223
+  },
+  "Bruges, Belgium": {
+    "lat": 51.209348,
+    "lng": 3.2246995000000425
+  },
+  "Ghent, Belgium": {
+    "lat": 51.0543422,
+    "lng": 3.717424299999948
+  },
+  "Antwerp, Belgium": {
+    "lat": 51.2194475,
+    "lng": 4.40246430000002
+  },
+  "The Hague, Netherlands": {
+    "lat": 52.0704978,
+    "lng": 4.3006999000000405
+  },
+  "Delft, Netherlands": {
+    "lat": 52.01157689999999,
+    "lng": 4.357067700000016
+  },
+  "Rotterdam, Netherlands": {
+    "lat": 51.9244201,
+    "lng": 4.4777325999999675
+  },
+  "Zaanse Schans, Netherlands": {
+    "lat": 52.472886,
+    "lng": 4.821854199999962
+  },
+  "Hoorn, Netherlands": {
+    "lat": 52.6423654,
+    "lng": 5.060212399999955
+  },
+  "Enkhuizen, Netherlands": {
+    "lat": 52.7075663,
+    "lng": 5.274119599999949
+  },
+  "Giethoorn, Netherlands": {
+    "lat": 52.7401779,
+    "lng": 6.077977899999951
+  },
+  "Midwolda, Netherlands": {
+    "lat": 53.1951109,
+    "lng": 7.013697200000024
+  },
+  "Oldenburg, Germany,": {
+    "lat": 53.1434501,
+    "lng": 8.214552099999992
+  },
+  "Osnabrück, Germany": {
+    "lat": 52.2799112,
+    "lng": 8.047178799999983
+  },
+  "Hanover, Germany": {
+    "lat": 52.3758916,
+    "lng": 9.732010400000036
+  },
+  "Wolfsburg, Germany": {
+    "lat": 52.4226503,
+    "lng": 10.78654610000001
+  },
+  "Magdeburg, Germany": {
+    "lat": 52.1205333,
+    "lng": 11.627623699999958
+  },
+  "Berlin, Germany": {
+    "lat": 52.52000659999999,
+    "lng": 13.404953999999975
+  },
+  "Potsdam, Germany": {
+    "lat": 52.3905689,
+    "lng": 13.064472900000055
+  },
+  "Dresden, Germany": {
+    "lat": 51.0504088,
+    "lng": 13.737262099999953
+  },
+  "Prague, Czech Republic": {
+    "lat": 50.0755381,
+    "lng": 14.43780049999998
+  },
+  "Pilsen, Czech Republic": {
+    "lat": 49.7384314,
+    "lng": 13.373637099999996
+  },
+  "Karlovy Vary, Czech Republic": {
+    "lat": 50.2318521,
+    "lng": 12.871961599999963
+  },
+  "Český Ráj, Czech Republic": {
+    "lat": 50.54492,
+    "lng": 15.151820100000009
+  },
+  "Svijany, Czech Republic": {
+    "lat": 50.5725839,
+    "lng": 15.06387559999996
+  },
+  "Hrubá Skála, Czech Republic": {
+    "lat": 50.5448059,
+    "lng": 15.200242000000003
+  },
+  "Trosky Castle, Czech Republic": {
+    "lat": 50.5165389,
+    "lng": 15.230840100000023
+  },
+  "Drábské světničky, Czech Republic": {
+    "lat": 50.5315281,
+    "lng": 15.031819499999983
+  },
+  "Vyhlídka na Kapelu, Czech Republic": {
+    "lat": 50.5512168,
+    "lng": 15.179178500000035
+  },
+  "Svoboda nad Úpou, Czech Republic": {
+    "lat": 50.625961,
+    "lng": 15.816488299999946
+  },
+  "Kowary, Poland": {
+    "lat": 50.79170999999999,
+    "lng": 15.836649999999963
+  },
+  "Litomysl, Czech Republic": {
+    "lat": 49.87052260000001,
+    "lng": 16.311062200000038
+  },
+  "Brno, Czech Republic": {
+    "lat": 49.1950602,
+    "lng": 16.606837100000007
+  },
+  "Macocha Abyss, Czech Republic": {
+    "lat": 49.3733333,
+    "lng": 16.7347221
+  },
+  "Punkva Cave, Czech Republic": {
+    "lat": 49.3709727,
+    "lng": 16.72599790000004
+  },
+  "Lednice, Czech Republic": {
+    "lat": 48.79991810000001,
+    "lng": 16.80339760000004
+  },
+  "Mikulov, Czech Republic": {
+    "lat": 48.805283,
+    "lng": 16.63768809999999
+  },
+  "Telč, Czech Republic": {
+    "lat": 49.1832383,
+    "lng": 15.454273100000023
+  },
+  "Jindrichuv Hradec, Czech Republic": {
+    "lat": 49.1444823,
+    "lng": 15.006138899999996
+  },
+  "České Budějovice, Czech Republic": {
+    "lat": 48.9756578,
+    "lng": 14.480254999999943
+  },
+  "Český Krumlov, Czech Republic": {
+    "lat": 48.8127354,
+    "lng": 14.317465699999957
+  },
+  "Hluboká nad Vltavou, Czech Republic": {
+    "lat": 49.0522544,
+    "lng": 14.434270800000036
+  },
+  "Tábor, Czech Republic": {
+    "lat": 49.4129888,
+    "lng": 14.677466399999958
+  },
+  "Rakovnik, Czech Republic": {
+    "lat": 50.106123,
+    "lng": 13.739662299999964
+  },
+  "Křivoklát, Czech Republic": {
+    "lat": 50.03764169999999,
+    "lng": 13.872460499999988
+  },
+  "Středokluky, Czech Republic": {
+    "lat": 50.1321874,
+    "lng": 14.234200399999963
+  },
+  "Nuremberg, Germany": {
+    "lat": 49.4521018,
+    "lng": 11.076665400000024
+  },
+  "Koblenz, Germany": {
+    "lat": 50.3569429,
+    "lng": 7.588995899999986
+  },
+  "Essen, Germany": {
+    "lat": 51.4556432,
+    "lng": 7.011555199999975
+  },
+  "Amsterdam, Netherlands": {
+    "lat": 52.3702157,
+    "lng": 4.895167899999933
+  }
+}
