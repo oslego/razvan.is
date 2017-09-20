@@ -10,8 +10,12 @@
     "concurrently": "^3.5.0",
     "glob": "^7.1.2",
     "gray-matter": "^3.0.6",
-    "pug": "^2.0.0-rc.4",
+    "highlight.js": "^9.12.0",
+    "marked": "^0.3.6",
     "rimraf": "^2.6.2",
-    "serve": "^6.0.3"
+    "rollup": "^0.49.3",
+    "rollup-plugin-babel": "^3.0.2",
+    "serve": "^6.0.3",
+    "viperhtml": "^2.5.0"
   }
 }

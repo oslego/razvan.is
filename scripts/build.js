@@ -32,38 +32,47 @@
 
 */
 
-const { readFile, writeFile } = require('fs');
+const { writeFile } = require('fs');
 const { promisify } = require('util');
 const glob = promisify(require('glob'));
-const readFileAsync = promisify(readFile);
 const writeFileAsync = promisify(writeFile);
 const matter = require('gray-matter');
-const pug = require('pug');
 const path = require('path');
+const viperHTML = require('viperhtml');
+const marked = require('marked');
+
+// Synchronous highlighting with highlight.js
+marked.setOptions({
+  highlight: function (code) {
+    return require('highlight.js').highlightAuto(code).value;
+  }
+});
 
 const templates = {};
-const rootDir = path.resolve(__dirname, '../');
 const folders = ['writing', 'journal', 'speaking', 'traveling', 'about'];
 
 (async () => {
   try {
+    // Grab all .md files in target folders and any sub-folders.
     const files = await glob(`+(${folders.join('|')})/**/*.md`);
-    console.log(files);
 
-    files.map(file => {
+    files.forEach(file => {
       const { data, content } = matter.read(file);
+      const model = {
+        title: data.title,
+        content: { html: marked(content) }
+      }
 
       let templateFn = templates[data.template];
 
       if (!templateFn) {
-        const templatePath = path.resolve(rootDir, `templates/${data.template}.pug`);
-        
-        templates[data.template] = pug.compileFile(templatePath);
+        templates[data.template] = require(`../templates/${data.template}.js`)
         templateFn = templates[data.template];
       }
 
       const index = path.join(path.dirname(file), 'index.html');
-      writeFileAsync(index, templateFn({ content }));
+      const html = templateFn(viperHTML.wire(), model);
+      writeFileAsync(index, html );
     })
 
   } catch (err) {
