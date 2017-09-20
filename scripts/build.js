@@ -32,21 +32,17 @@
 
 */
 
-const { writeFile } = require('fs');
+const { writeFile, existsSync } = require('fs');
 const { promisify } = require('util');
 const glob = promisify(require('glob'));
 const writeFileAsync = promisify(writeFile);
-const matter = require('gray-matter');
 const path = require('path');
+const matter = require('gray-matter');
 const viperHTML = require('viperhtml');
-const marked = require('marked');
 
-// Synchronous highlighting with highlight.js
-marked.setOptions({
-  highlight: function (code) {
-    return require('highlight.js').highlightAuto(code).value;
-  }
-});
+const { toArray } = require('./util.js');
+const buildCSS = require('./css');
+const buildContent = require('./content');
 
 const templates = {};
 const folders = ['writing', 'journal', 'speaking', 'traveling', 'about'];
@@ -56,23 +52,26 @@ const folders = ['writing', 'journal', 'speaking', 'traveling', 'about'];
     // Grab all .md files in target folders and any sub-folders.
     const files = await glob(`+(${folders.join('|')})/**/*.md`);
 
-    files.forEach(file => {
+    files.forEach(async file => {
+      const cwd = path.dirname(file);
       const { data, content } = matter.read(file);
+
+      // Array with stylesheet paths
+      const paths = toArray(data.style).map(file => path.join(cwd, file));
+      // Get CSS processing output
+      const stylesheets = await buildCSS(paths);
+
       const model = {
         title: data.title,
-        content: { html: marked(content) }
+        content: { html: buildContent(content) },
+        style: { html: stylesheets.map(sheet => { return `<style type="text/css">${sheet.css}</style>` }) }
       }
 
-      let templateFn = templates[data.template];
+      templates[data.template] = templates[data.template] || require(`../templates/${data.template}.js`);
 
-      if (!templateFn) {
-        templates[data.template] = require(`../templates/${data.template}.js`)
-        templateFn = templates[data.template];
-      }
-
-      const index = path.join(path.dirname(file), 'index.html');
-      const html = templateFn(viperHTML.wire(), model);
-      writeFileAsync(index, html );
+      const html = templates[data.template].call(null, viperHTML.wire(), model);
+      const index = path.join(cwd, 'index.html');
+      writeFileAsync(index, html);
     })
 
   } catch (err) {
