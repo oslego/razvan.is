@@ -10,6 +10,7 @@ const viperHTML = require('viperhtml');
 const { toArray } = require('./util.js');
 const buildCSS = require('./css');
 const buildContent = require('./content');
+const buildJS = require('./javascript');
 
 /*
   Build a specific website page (aka microsite)
@@ -35,6 +36,14 @@ async function buildMicrosite(file) {
 
   // Get CSS processing output
   const stylesheets = await buildCSS(stylesheetFiles);
+
+  const jsFiles = toArray(data.script).map( file => path.join(cwd, file) );
+  console.log(jsFiles)
+
+  if (jsFiles.length) {
+    let out = await buildJS(jsFiles[0])
+    console.log(out)
+  }
 
   const model = {
     title: data.title,
@@ -72,7 +81,6 @@ async function buildMicrosite(file) {
       ? await glob(`${buildPath}/*.md`)
       : await glob(`+(${folders.join('|')})/**/*.md`);
 
-    console.log(files);
     files.forEach(file => buildMicrosite(file))
 
   } catch (err) {

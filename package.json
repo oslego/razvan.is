@@ -1,13 +1,13 @@
 {
   "scripts": {
-    "start": "concurrently \"npm run watch\" \"npm run preview\"",
-    "watch": "node ./scripts/watch.js",
+    "start": "concurrently \"npm run preview\"",
     "build": "node ./scripts/build.js",
     "purge": "node ./scripts/purge.js",
     "preview": "serve . --open --cache 0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.4",
+    "babel-core": "^6.26.0",
     "concurrently": "^3.5.0",
     "glob": "^7.1.2",
     "gray-matter": "^3.0.6",
