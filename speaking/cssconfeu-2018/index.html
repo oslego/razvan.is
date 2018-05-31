@@ -1,0 +1,466 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>DevTools for Designers</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="devtools-for-designers.css">
+		<link rel="stylesheet" href="demo-fonts.css">
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background="images/preamble.jpg">
+					<h1 class="preamble">Golden Age of Web Platform</h1>
+				</section>
+
+				<section>
+					<div id="pillars">
+						<h2>Web Standards</h2>
+						<h2>Frameworks <br> Libraries</h2>
+						<h2>Developer Tools</h2>
+					</div>
+
+					<aside class="notes">
+						- web platform more capable than ever
+						- features more widespread than ever
+						- cause to be overwhelmed
+						- devtools = robust in all browsers
+						- built to make life easier for web developers. what about web designers?
+					</aside>
+				</section>
+
+				<section data-background="linear-gradient(45deg, #300957, #007e80)">
+					<p class="statement">DevTools in <strong>all browsers</strong>  provide
+					<br>a robust toolkit to empower
+					<br><strong>web developers</strong>.
+					<br><br><span class="fragment">What about web designers?</span></p>
+				</section>
+
+				<section>
+					<div id="title-slide">
+						<h1 class="title">DevTools for Designers</h1>
+						<p class="author">Razvan Caliman</p>
+
+						<div class="job job--mozilla">
+							<img src="images/firefox-nightly.svg" alt="">
+							<p>Firefox DevTools</p>
+						</div>
+
+						<div class="job job--adobe">
+							<img src="images/adobe.svg" alt="">
+							<p>
+								CSS Shapes <br>
+								CSS Regions <br>
+								CSS Masking <br>
+								CSS Blend Modes <br>
+							</p>
+						</div>
+					</div>
+
+					<aside class="notes">
+						# Agenda
+
+						- What web designers need?
+						- Features available today in DevTools
+						- The Future of DevTools for Designers
+					</aside>
+				</section>
+
+				<section id="firebug" data-background="#fff">
+					<h1>Firebug</h1>
+					<img data-src="images/firebug_transparent.png" alt="">
+					<aside class="notes">
+						- inspired by & competing with Venkman, DOMInspector
+						- community of enthusiasts
+						- extensions
+					</aside>
+				</section>
+
+				<section>
+					<video data-autoplay loop class="fill">
+					 <source data-src="video/dabblet-1080.mov" type="video/quicktime" />
+				  </video>
+					<aside class="notes">
+						- by Lea Verou
+						- online CSS editor & playground like CodePen
+						- property previews
+						- incorporated ideas existing at the time (colors, timing function editor)
+						- pioneered new ideas: gradients, font, angle, duration, distance
+						- influenced DevTools ever since
+
+background: #f06;
+background: linear-gradient(45deg, #f06, yellow);
+min-height: 100%;
+transition: background 2s ease-in-out;
+transform: rotate(235deg) translateX(400px);
+font-family: Helvetica, sans-serif;
+					</aside>
+				</section>
+
+				<section data-background="linear-gradient(45deg, #300957, #007e80)">
+					<p class="statement">What do web designers need
+					<br>to <strong>really</strong> design in the browser?</p>
+				</section>
+
+				<section>
+					<div class="divider--four">
+						<div class="box box--freedom"><h2>Freedom</h2></div>
+						<div class="box box--confidence"><h2>Confidence</h2></div>
+						<div class="box box--specialized-tools"><h2>Specialized Tools</h2></div>
+						<div class="box box--ergonomics"><h2>Ergonomics</h2></div>
+					</div>
+
+					<aside class="notes">
+						- Freedom: canvas that encourages free-from exploration by direct manipulation
+						- Confidence: undo/redo, save changes, versioning
+						- Specialized tools: code is an abstraction; slow to get from idea to visual means less experimentation
+						- Ergonomics: customize, personalize, save and share pattern libraries
+					</aside>
+				</section>
+
+				<section data-background="images/freedom.jpg">
+					<h1 class="freedom">Freedom</h1>
+					<p class="tagline">Canvas that fosters creative exploration</p>
+				</section>
+
+				<section data-background="#4557ff">
+					<img src="images/webflow.svg" alt="">
+
+					<aside class="notes">
+						- no browser DevTools supports a free-form canvas yet.
+						- everything interacts in HTML/CSS (good: live preview)
+						- hard to solve in un-opinionated way
+						- tools need a set of common patterns & conventions to make it work
+						- the web is wild
+					</aside>
+				</section>
+
+				<section id="webflow">
+					<video data-autoplay class="fill">
+					 <source data-src="video/webflow.mp4" type="video/mp4" />
+				  </video>
+				</section>
+
+				<section data-background="images/confidence.jpg">
+					<h1 class="confidence">Confidence</h1>
+					<p class="tagline">Peace of mind that tweaks are reversible and changes are not lost</p>
+
+					<aside class="notes">
+						- undo/redo
+						- save changes -> export
+						- versioning
+					</aside>
+				</section>
+
+				<section>
+					<h1 class="icon icon--chrome">Local Overrides</h1>
+				</section>
+
+				<section id="chrome-local-overrides">
+					<video data-autoplay class="fill">
+					 <source data-src="video/chrome-local-overrides-1080.mov" type="video/quicktime" />
+				  </video>
+				</section>
+
+				<section>
+					<h1 id="finch" class="icon icon--finch">Finch Developer Tools</h1>
+				</section>
+
+				<section>
+					<video data-autoplay class="fill">
+					 <source data-src="video/finch-1080.mov" type="video/quicktime" />
+				  </video>
+				</section>
+
+				<section data-background="images/specialized-tools.jpg">
+					<h1 class="specialized-tools">Specialized Tools</h1>
+					<p class="tagline">Editors focused on doing one thing very well</p>
+
+					<aside class="notes">
+						- input vs path editor
+						- input vs color picker
+					</aside>
+				</section>
+
+				<section>
+					<h1 class="icon icon--chrome">Color Picker</h1>
+				</section>
+
+				<section>
+					<video data-autoplay class="fill">
+						<source data-src="video/chrome-color-picker-1080.mov" type="video/quicktime" />
+				  </video>
+				</section>
+
+				<section>
+					<h1 class="icon icon--chrome">Text Shadow Editor</h1>
+				</section>
+
+				<section>
+					<video data-autoplay class="fill">
+						<source data-src="video/chrome-text-shadow-editor-1080.mov" type="video/quicktime" />
+					</video>
+				</section>
+
+				<section>
+					<h1 class="icon icon--firefox">CSS Grid Inspector</h1>
+				</section>
+
+				<section id="grid-inspector">
+					<video data-autoplay class="fill">
+						<source data-src="video/firefox-grid-inspector-1080.mov" type="video/quicktime" />
+					</video>
+
+				</section>
+
+				<section>
+					<h1 class="icon icon--firefox">CSS Filter Editor</h1>
+				</section>
+
+				<section>
+					<video data-autoplay class="fill">
+						<source data-src="video/firefox-filter-editor-1080.mov" type="video/quicktime" />
+				  </video>
+				</section>
+
+				<section>
+					<h1 class="icon icon--safari">CSS Gradient Editor</h1>
+				</section>
+
+				<section>
+					<img data-src="images/screenshot_safari-gradient-editor.jpg" alt="Safari DevTools has a CSS gradient editor. It is shown here in use on grabient.com, a website where people create color gradients using a graphical user interface.">
+				</section>
+
+				<!-- <section>
+					<img data-src="images/screenshot_cssgradientio.jpg" alt="CSS Gradient.io is a website where people create color gradients using a graphical user interface.">
+				</section> -->
+
+				<section>
+					<video data-autoplay class="fill">
+						<source data-src="video/easing-gradients-editor-1080.mov" type="video/quicktime" />
+					</video>
+				</section>
+
+				<section>
+					<h1 class="icon icon--firefox-nightly">Fonts Editor</h1>
+				</section>
+
+				<section data-background="#111">
+					<div class="demo-fonts">
+						<p class="font-amstelvar">
+							Quick <br>brown <br>fox<br>
+						</p>
+					</div>
+
+				</section>
+
+				<section>
+					<h1>axis-praxis.org</h1>
+				</section>
+
+				<section>
+					<section>
+						<h1 class="icon icon--firefox-nightly">Shape Path Editor</h1>
+					</section>
+
+					<section data-background-iframe="alice-demo" data-background-interactive="false">
+					</section>
+				</section>
+
+
+				<section data-background="images/ergonomics.jpg">
+					<h1 class="ergonomics">Ergonomics</h1>
+					<p class="tagline">Tools customized to fit the way people work</p>
+				</section>
+
+				<section data-background="white">
+					<img class="browser-devtools" data-src="images/main-desktop-browser-logos.png" alt="">
+					<h1>Browser DevTools</h1>
+					<aside class="notes">
+						Few people on staff to work on all the things.
+					</aside>
+				</section>
+
+				<section data-background="white">
+					<img class="react-devtools" data-src="images/screenshot_reactdevtools.png" alt="Tweet from Sophie Alpert highlighing that React Devtools has over 1 million users as of 15 May 2018.">
+					<aside class="notes">
+						Individuals motivated to solve their own problems and share the solution.
+					</aside>
+				</section>
+
+				<section data-background="black">
+					<img data-src="images/extension-panel.jpg" alt="Firefox Devtools showing an empty panel for a Firefox DevTools extension.">
+				</section>
+
+				<section data-background="black">
+					<img data-src="images/extension-sidebar.jpg" alt="Firefox Devtools showing an empty sidebar panel for a Firefox DevTools extension.">
+				</section>
+
+				<section data-background="black">
+					<img data-src="images/extension-sidebar-3pane.jpg" alt="Firefox Devtools in 3 pane mode showing the CSS rule view along side an empty sidebar panel for a Firefox DevTools extension.">
+				</section>
+
+				<section data-background="black">
+					<img id="masked-panel" data-src="images/extension-sidebar-3pane.jpg" alt="Isolated view of a sidebar panel in Firefox DevTools to illustrate how limited the development API is.">
+				</section>
+
+				<section data-background="black">
+					<img data-src="images/dt-font-weight-editor.png" class="fill" alt="Proposed editor for CSS font-weight as a DevTools extension.">
+				</section>
+
+				<section data-background="black">
+					<img data-src="images/dt-font-weight-editor-multi.png" class="fill" alt="Multiple editors for the same CSS property provided as DevTools extensions.">
+				</section>
+
+				<section data-background="black">
+					<img data-src="images/dt-mutliple-editors.png" class="fill" alt="
+					Multiple editors open at the same time for different CSS properties.">
+				</section>
+
+				<section data-background="black">
+					<img data-src="images/dt-angle-preview.png" class="fill" alt="Preview tooltip illustrating the value of a CSS transform property.">
+				</section>
+
+				<section data-background="black">
+					<img data-src="images/dt-recommendation.png" class="fill" alt="DevTools recommending an extension for editing a CSS gradient property.">
+				</section>
+
+				<section>
+					<section>
+						<h1 class="icon icon--twitter">@RazvanCaliman</h1>
+						<h1 class="icon icon--twitter">@FirefoxDevTools</h1>
+					</section>
+
+					<section>
+						<h1>API</h1>
+		<pre>
+	.registerPropertyPreview({
+		property  // "color", "background", "display"
+		value 	  // CSSUnitValue, CSSImageValue, CSSKeywordValue
+		onShow 	  // function(CSSDeclaration, Node, Rules)
+		onHide 	  // function(CSSDeclaration, Node, Rules)
+	})
+	</pre>
+	<pre>
+	.registerPropertyEditor({
+		property  // "color", "background", "display"
+		value 	  // CSSUnitValue, CSSImageValue, CSSKeywordValue
+		onShow 	  // function(CSSDeclaration, Node, Rules)
+		onHide 	  // function(CSSDeclaration, Node, Rules)
+		onDestroy // function()
+	})
+	</pre>
+	<pre>
+	Node
+		Node.onQuadsChange()
+		Node.onZoomChange()
+		Node.onRemove()
+	...
+	</pre>
+	<pre>
+	CSSDeclaration
+		.value
+		.property
+		.enabled
+		.overriden
+		.parentRule
+
+		.value()
+		.preview()
+		.replace() → Ex: replace shorthand notation
+		.remove()
+
+		onChange()
+		onRemove()
+		onAppliedStateChange() → enabled, disabled, overriden, applied
+	...
+	</pre>
+	<pre>
+	Rules
+		.find(property, [value]) → Find related CSS properties (Ex: backgound-*)
+		.addR()
+		.remove()
+	</pre>
+					</section>
+				</section>
+
+				<section data-background="linear-gradient(45deg, #2c3936, #07e78e)">
+					<p class="statement">
+						<span class="quote">The tools we use sometimes <br>inspire the things we make.</span>
+						<span class="byline">— Mustafa Kurtuldu, Design Advocate at Google</span>
+					</p>
+				</section>
+
+				<section>
+					<p>razvan.is/speaking/cssconfeu-2018</p>
+
+					<div class="credits">
+						<p><a href="https://github.com/TypeNetwork/Amstelvar">Amstelvar</a> by David Berlow</p>
+					</div>
+
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				controls: false,
+				progress: false,
+				history: true,
+				transition: 'fade',
+				width: "100%",
+				height: "100%",
+				margin: 0,
+				minScale: 1,
+				maxScale: 1,
+				dependencies: []
+			});
+
+			const VIDEOS = {
+				"video/dabblet-1080.mp4"									: "SdypiUrbUUY",
+				"video/webflow.mp4"												: "2iwzJztFngY",
+				"video/chrome-local-overrides-1080.mov"		: "8dt9BLHW2qU",
+				"video/finch-1080.mov"										: "jNSQJCxvcso",
+				"video/chrome-color-picker-1080.mov"			: "2gAW0pUOBRI",
+				"video/chrome-text-shadow-editor-1080.mov": "9z7P4Xqr2dU",
+				"video/firefox-grid-inspector-1080.mov"		: "htOYSr-o3zs",
+				"video/firefox-filter-editor-1080.mov"		: "fVL7SExyiEU",
+				"video/easing-gradients-editor-1080.mov" 	: "ZHF25PzQiCA",
+			}
+
+			function getYTPlayerHTML(id) {
+				return`
+				<iframe class="youtube-iframe" width="1280px" height="720px" src="https://www.youtube-nocookie.com/embed/${id}?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				`
+			}
+
+			// Replace <video> with with YouTube player when local videos can't be found/played.
+			Reveal.addEventListener('slidechanged', (e) => {
+				let video = e.currentSlide.querySelector('video');
+				if (video && isNaN(video.duration)) {
+					let source = video.querySelector('source');
+					let path = source.getAttribute('src');
+					let youtubeID = VIDEOS[path];
+
+					if (youtubeID) {
+						video.outerHTML = getYTPlayerHTML(youtubeID)
+					}
+				}
+			});
+
+
+		</script>
+	</body>
+</html>

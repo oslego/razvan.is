@@ -1,0 +1,418 @@
+/**
+ * Black theme for reveal.js. This is the opposite of the 'white' theme.
+ *
+ * By Hakim El Hattab, http://hakim.se
+ */
+@import url(lib/font/source-sans-pro/source-sans-pro.css);
+section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
+  color: #222; }
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+  background: #222;
+  background-color: #222;
+  background: linear-gradient(45deg, #300957, purple);
+}
+
+.reveal {
+  font-family: -apple-system, "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 42px;
+  font-weight: normal;
+  -moz-user-select: none;
+  color: #fff; }
+
+::selection {
+  color: #fff;
+  background: #bee4fd;
+  text-shadow: none; }
+
+::-moz-selection {
+  color: #fff;
+  background: #bee4fd;
+  text-shadow: none; }
+
+.reveal .slides > section,
+.reveal .slides > section > section {
+  padding: 0;
+  line-height: 1.3;
+  font-weight: inherit; }
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 0 0 0 0;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-shadow: none;
+  word-wrap: break-word; }
+
+.reveal h1 {
+  font-size: 4em;
+ }
+
+.reveal h2 {
+  font-size: 1.6em; }
+
+.reveal h3 {
+  font-size: 1.3em; }
+
+.reveal h4 {
+  font-size: 1em; }
+
+.reveal h1.title {
+  letter-spacing: -0.05em;
+  text-shadow: 5px 5px 0 #2a0a3b;
+  font-weight: 700;
+}
+
+.reveal h1.preamble {
+  font-size: 3em;
+}
+
+.reveal h1.preamble,
+.reveal h1.confidence,
+.reveal h1.ergonomics,
+.reveal h1.freedom {
+  text-shadow: 0 0 15px hsla(0, 0%, 0%, 0.5);
+}
+
+.reveal p.tagline {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin: 0;
+  text-shadow: 0 0 10px #000;
+}
+
+.reveal h1.confidence,
+.reveal h1.confidence + p.tagline {
+  text-shadow: 0 0 19px hsla(0, 0%, 0%, 0.7);
+}
+.reveal h1.ergonomics,
+.reveal h1.ergonomics + p.tagline {
+  text-shadow: 0 0 10px hsla(0, 0%, 0%, 1);
+}
+
+.reveal h1.freedom,
+.reveal h1.freedom + p.tagline {
+  text-shadow: 0 0 10px hsla(0, 0%, 0%, 0.5);
+}
+
+.reveal h1.specialized-tools {
+  margin-top: -1em;
+}
+
+.reveal h1#finch {
+  font-size: 3em;
+}
+
+.reveal h1.icon {
+  font-size: 4em;
+  line-height: 1;
+  display: inline-block;
+  background-position: left top;
+  background-size: 1em 1em;
+  background-repeat:  no-repeat;
+  padding-left: 1.2em;
+}
+
+.reveal h1.icon--firefox {
+  background-image: url(images/firefox.svg);
+}
+
+.reveal h1.icon--firefox-nightly {
+  background-image: url(images/firefox-nightly.svg);
+}
+
+.reveal h1.icon--chrome {
+  background-image: url(images/chrome.svg);
+}
+
+.reveal h1.icon--safari {
+  background-image: url(images/safari.png);
+}
+
+.reveal h1.icon--finch {
+  background-image: url(images/finch.png);
+}
+
+.reveal h1.icon--twitter {
+  background-image: url(images/twitter.svg);
+  background-size: 1.3em 1.3em;
+  background-position: left center;
+  margin-bottom: .5em;
+}
+
+
+/*********************************************
+ * OTHER
+ *********************************************/
+.reveal p {
+  margin: 20px 0;
+  line-height: 1.3; }
+
+/* Ensure certain elements are never larger than the slide itself */
+.reveal img,
+.reveal video,
+.reveal iframe {
+  max-width: 100%;
+  max-height: 100%; }
+
+.reveal img.fill,
+.reveal video.fill,
+.reveal iframe.fill {
+  width: 100%;
+  height: 100%; }
+
+.reveal iframe.youtube-iframe {
+  width: 90vw;
+  height: calc(90vw * 0.5625);
+}
+
+.reveal strong,
+.reveal b {
+  font-weight: bold; }
+
+.reveal em {
+  font-style: italic; }
+
+.reveal ol,
+.reveal dl,
+.reveal ul {
+  display: inline-block;
+  text-align: left;
+  margin: 0 0 0 1em; }
+
+.reveal ol {
+  list-style-type: decimal; }
+
+.reveal ul {
+  list-style-type: disc; }
+
+.reveal ul ul {
+  list-style-type: square; }
+
+.reveal ul ul ul {
+  list-style-type: circle; }
+
+.reveal ul ul,
+.reveal ul ol,
+.reveal ol ol,
+.reveal ol ul {
+  display: block;
+  margin-left: 40px; }
+
+.reveal dt {
+  font-weight: bold; }
+
+.reveal dd {
+  margin-left: 40px; }
+
+.reveal blockquote {
+  display: block;
+  position: relative;
+  width: 70%;
+  margin: 20px auto;
+  padding: 5px;
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+
+.reveal blockquote p:first-child,
+.reveal blockquote p:last-child {
+  display: inline-block; }
+
+.reveal q {
+  font-style: italic; }
+
+.reveal pre {
+  display: block;
+  position: relative;
+  width: 90%;
+  margin: 20px auto;
+  text-align: left;
+  font-size: 0.55em;
+  font-family: monospace;
+  line-height: 1.2em;
+  word-wrap: break-word;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+
+.reveal code {
+  font-family: monospace;
+  text-transform: none; }
+
+.reveal pre code {
+  display: block;
+  padding: 5px;
+  overflow: auto;
+  max-height: 400px;
+  word-wrap: normal; }
+
+/*********************************************
+ * LINKS
+ *********************************************/
+.reveal a {
+  color: #42affa;
+  text-decoration: none;
+  -webkit-transition: color .15s ease;
+  -moz-transition: color .15s ease;
+  transition: color .15s ease; }
+
+.reveal a:hover {
+  color: #8dcffc;
+  text-shadow: none;
+  border: none; }
+
+.reveal .roll span:after {
+  color: #fff;
+  background: #068de9; }
+
+#pillars {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#pillars h2 {
+  margin: auto;
+}
+
+.reveal .statement {
+  font-size: 2.5em;
+  padding: 0 1em;
+  font-weight: 400;
+  line-height: 1.125;
+  text-align: left;
+}
+
+.reveal .byline {
+  font-size: .5em;
+  display: block;
+  margin-top: 2em;
+}
+
+.reveal .quote {
+  font-weight: 200;
+  font-style: oblique;
+}
+
+#firebug h1{
+  font-size: 5em;
+  letter-spacing: -.05em;
+  font-family: "Source Sans Pro", -apple-system, sans-serif;
+  text-shadow: none;
+}
+
+.divider--four {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+}
+
+.divider--four .box{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-size: cover;
+}
+
+.divider--four .box--freedom {
+  background-image: url(images/freedom.jpg);
+}
+
+.divider--four .box--confidence {
+  background-image: url(images/confidence.jpg)
+}
+
+.divider--four .box--specialized-tools {
+  background-image: url(images/specialized-tools.jpg);
+}
+
+.divider--four .box--ergonomics {
+  background-image: url(images/ergonomics.jpg)
+}
+
+.divider--four h2 {
+  margin: auto;
+  font-size: 2.3em;
+  text-shadow: 0 0 10px hsla(0, 0%, 0%, 0.9);
+}
+
+#masked-panel {
+  mask-image: url(images/mask-alpha.png);
+  mask-type: alpha;
+  mask-size: cover;
+}
+
+#title-slide {
+  display: grid;
+  height: 80vh;
+  max-width: 90vw;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  margin: auto;
+}
+
+#title-slide .title {
+  grid-column: 1 / span 4;
+  margin: auto;
+}
+
+#title-slide .author {
+  grid-column: 1 / span 4;
+  color: hsla(0, 0%, 100%, 0.7);
+  font-weight: 600;
+  font-size: 1.6em;
+  margin: -1em 0 0 0;
+}
+
+.job {
+  display: grid;
+  grid-template-columns: 3em 1fr;
+  grid-column-gap: .8em;
+  text-align: left;
+}
+
+.job p {
+  margin-top: 0;
+  font-size: 1.2em;
+  font-weight: 200;
+}
+
+.job--mozilla {
+  grid-column: 2;
+}
+
+.job--adobe {
+  grid-column: 3 / span 2;
+}
+
+.job--adobe img{
+  width: 2em;
+  margin-top: .25em;
+  margin-left: auto;
+}
+
+.browser-devtools {
+  width: 90vw;
+}
+
+.react-devtools {
+  mask-image: linear-gradient(white 98%, transparent);
+}
+
+// magenta
+// background: linear-gradient(45deg, #300957, #007e80);
+
+// lime
+// background: linear-gradient(45deg, #2c3936, #07e78e);
