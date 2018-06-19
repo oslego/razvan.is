@@ -186,3 +186,25 @@
     - Amsterdam, Netherlands
     - Brussels, Belgium
     - London, UK
+
+  September
+    - Bucharest, Romania
+
+  October
+    - Amsterdam, Netherlands
+
+  December
+    - Bucharest, Romania
+
+2018
+  February
+    - Toronto, Canada
+    - Niagara Falls, Canada
+
+  March
+    - Istanbul, Turkey
+    - Goreme, Turkey
+
+  June
+    - Berlin, Germany
+    - San Francisco, USA
